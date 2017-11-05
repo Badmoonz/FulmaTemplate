@@ -1,0 +1,10 @@
+FSharp.Core
+Fable.Core
+dotnet-fable
+Fable.Elmish
+Fable.Elmish.React
+Fable.Elmish.HMR
+
+Fulma 
+Fulma.Extensions 
+Fulma.Elmish

@@ -1,0 +1,19 @@
+source https://api.nuget.org/v3/index.json
+storage: none
+
+nuget Fable.Elmish
+nuget Fable.Elmish.React
+nuget Fable.Elmish.HMR
+nuget FSharp.Core
+nuget Suave
+nuget Fable.Core
+nuget Fulma prerelease
+nuget Fulma.Extensions prerelease
+nuget Fulma.Elmish prerelease
+
+clitool dotnet-fable
+
+group Build
+  source https://api.nuget.org/v3/index.json
+
+  nuget FAKE
